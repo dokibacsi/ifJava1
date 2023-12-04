@@ -1,4 +1,4 @@
 package interfacegyak;
-public class Konzerv {
+public class Konzerv implements Nyithato{
     
 }

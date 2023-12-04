@@ -1,4 +1,4 @@
 package interfacegyak;
-public class Ajto {
+public class Ajto implements Nyithato{
     
 }

@@ -1,11 +1,13 @@
 package interfacegyak;
 public class Hasznalat {
-    Ajto ajto = new Ajto();
-    Esernyo esernyo = new Esernyo();
-    Konzerv konzerv = new Konzerv();
+    public static void main(String[] args) {
+        Ajto ajto = new Ajto();
+        Esernyo esernyo = new Esernyo();
+        Konzerv konzerv = new Konzerv();
     
-    Nyithato nyithato = new Nyithato()
-    {
-    
-    };
+        Nyithato[] nyithatok = new Nyithato[5];
+        nyithatok[0] = ajto;
+        nyithatok[1] = esernyo;
+        nyithatok[2] = konzerv;
+    }
 }

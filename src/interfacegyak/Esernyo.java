@@ -1,4 +1,4 @@
 package interfacegyak;
-public class Esernyo {
+public class Esernyo implements Nyithato{
     
 }
