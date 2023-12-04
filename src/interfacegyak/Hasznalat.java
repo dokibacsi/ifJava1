@@ -9,5 +9,11 @@ public class Hasznalat {
         nyithatok[0] = ajto;
         nyithatok[1] = esernyo;
         nyithatok[2] = konzerv;
+        
+        for (Nyithato nyithato : nyithatok) {
+            if (nyithato instanceof Nyithato){
+                nyithato.kinyit();
+            }
+        }
     }
 }
